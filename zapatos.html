@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tienda Online</title>
+	<link rel="stylesheet" type="text/css" href="css/stylezapatos.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+	<link rel="shortcut icon" href="img/logo.png">
+</head>
+<body background="#FDFEE0">
+		<div id="header">
+		<div id="centro1">
+			<div id="logo" >
+				<h1>EL BICHO</h1>
+				<p>Vestimenta y Calzado</p>
+			</div>
+			<nav class="menu">
+					<ul>
+						<li><a href="inicio.html">Inicio</a></li>
+						<li><a href="galeria.html">Galería</a></li>
+						<li><a href="contacto.html">Contacto</a></li>
+					</ul>
+			</nav>
+		</div>
+		<div align="center" id="logoimg">
+			<img src="img/logo.png" width="75">
+		</div>
+	</div>
+	<h1 align="center">EL BICHO - FORMULARIO PARA PEDIDO DE ZAPATOS</h1> 
+	<p align="center">Ingresa los datos a continuación y tendrás el zapato de tus sueños al mejor precio y con la mejor calidad</p>
+	<form>
+		<fieldset>
+			<legend>Personaliza tu Pedido</legend> 
+			<label>Escoge la Marca</label>
+			<select id="masa">*/Su propósito es identificar el elemento al vincularlo (usando un identificador de fragmento), en scripts u hojas de estilo (con CSS)./*
+				<optgroup label="Marcas">
+						<option value="Señalar">Sin especificar</option>
+						<option value="Marca 1">Nike</option>
+						<option value="Marca 2">Adidas</option>		
+						<option value="Marca 3">Puma</option>
+						<option value="Marca 4">Crocs</option>
+						<option value="Marca 5">Converse</option>		
+						<option value="Marca 6">New Balance</option>
+					</optgroup>
+				</select>
+			
+				<label>Para</label>
+				<select id="Genero">
+					<option value="Crema">Escoja el Genero</option>
+					<option value="Crema">Mujer</option>
+					<option value="Ligth">Hombre</option>
+				</select>
+
+				<label>Sube la foto del modelo de tu zapato</label>	
+				<input type="file" name="" */type determina el tipo de entrada que se va a utilizar y sus valores pueden ser uno de los siguientes: text, muestra una caja donde introducir texto./*> 
+				</select>
+				</select>
+		
+				<p>Elije la talla para tu zapato</p>
+				<div class="numero-porciones">
+					<input type="Radio" id="24" name="porciones">
+					<label for="24">38 (25cm)</label>
+				</div>
+				<div class="numero-porciones">
+					<input type="Radio" id="12" name="porciones">
+					<label for="12">39	(25.5cm)</label>
+				</div>
+				<div class="numero-porciones">
+					<input type="Radio" id="5" name="porciones">
+					<label for="5">	40	(26cm)</label>
+				</div>
+
+				<div class="numero-porciones">
+					<input type="Radio" id="5" name="porciones">
+					<label for="5"> 41	(27cm)</label>
+				</div>
+
+				<label>Color del Zapato</label>
+				<input type="color" value="#6A5ACD" id="color">
+				
+		</fieldset>
+		<fieldset>
+			<legend>Recibe información de nosotros</legend>
+			<p>Quieres recibir información de nosotros</p>
+				<select name="informacion" id="informacion">
+					<option value="si"></option>
+					<option value="si">Si</option>
+					<option value="no">No</option>
+				</select>
+				<p>Qué información te interesa</p>
+				<div class="checkbox">
+					<input type="checkbox" name="checkbox" id="recetas">
+					<label for="recetas">Descuentos</label>
+				</div>
+
+				<div class="checkbox">
+					<input type="checkbox" name="checkbox" id="promociones">
+					<label for="promociones">Promociones</label>
+				</div>
+				<div class="checkbox">
+					<input type="checkbox" name="checkbox" id="eventos">
+					<label for="eventos">Productos Nuevos</label>
+				</div>
+
+				<div class="checkbox">
+					<input type="checkbox" name="checkbox" id="cursos">
+					<label for="cursos">Eventos</label>
+				</div>
+		</fieldset>
+
+		<fieldset>
+			<legend>Datos de envio</legend>
+			<label>Nombre completo</label>
+			<input type="text" placeholder="Tu nombre aquí">
+			<label>Correo electrónico</label>
+			<input type="email" placeholder="usuario@correo.com">
+			<label>Dirección</label>
+			<input type="url" placeholder="Cuenca-Ecuador">
+			<label>Teléfono</label>
+			<input type="text" placeholder="+593 000 000">
+		</fieldset>
+		<input id="comprar" type="submit" value="Comprar">
+	</form>
+</body>
+</html>
